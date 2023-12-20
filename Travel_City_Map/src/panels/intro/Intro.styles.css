@@ -1,0 +1,86 @@
+/* Intro.styles.css */
+.intro-container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 16px; /* Добавляем внутренний отступ */
+    background-image: url('../../../public/images/squares-main.svg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    color: #100A1B;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  
+  .subtitle {
+    color: #100A1B;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: #100A1B;
+    font-size: 16px;
+    text-align: center;
+    margin: 16px 0;
+  }
+  
+  .list-container {
+    max-width: 400px;
+    width: 100%; /* Делаем контейнер шире */
+    margin: 0 auto;
+  }
+  
+  .category-cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px #0000000D;
+  }
+  
+  
+  .category-content {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+    justify-content: space-between !important;
+  }
+  
+  .category-text {
+    text-align: left;
+  }
+  
+   
+  .checkbox-container {
+    text-align: right;
+    justify-content: space-between;
+  }
+  
+  .scroll-message {
+    text-align: center;
+    margin-top: 16px;
+    color: #100A1B;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  

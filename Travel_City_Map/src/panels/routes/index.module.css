@@ -1,0 +1,107 @@
+.layout{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../../public/images/squares-main.svg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  
+}
+
+.header {
+  padding-top: 50px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.route {
+  box-shadow: 0px 8px 16px 0px #00000026;
+  width: 80%;
+  max-width: 350px;
+  border-radius: 8px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #0000001F;
+  margin: 16px 24px;
+}
+.route__name {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.route__from {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #838C98;
+}
+
+.route__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.route__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.route__point__image {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #DFE8F3;
+  border-radius: 50%;
+}
+
+.route__point{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1B84F8;
+  text-align: center;
+  font-size: 12px;
+  flex: 0;
+}
+
+.arrow {
+  padding-left: 8px;
+  padding-right: 8px;
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.addReviewButton {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.viewReviewsButton {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.reviewSection {
+  margin-top: 10px;
+}
+
+.route__button {
+  display: flex;
+  justify-content: center;
+}

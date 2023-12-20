@@ -1,0 +1,11 @@
+.labels-container {
+    display: flex;
+    justify-content: space-around;
+    transform: translate(0px,70px);
+    width: 100%; 
+  }
+  .labels-container div {
+    text-align: center;
+  }
+  
+  

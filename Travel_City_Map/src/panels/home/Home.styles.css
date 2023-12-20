@@ -1,0 +1,12 @@
+.labels-container {
+  display: flex;
+  justify-content: space-around;
+  transform: translate(0px,70px);
+  width: 100%; 
+  background-color: white;
+}
+.labels-container div {
+  text-align: center;
+  background-color: white;
+}
+

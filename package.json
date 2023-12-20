@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vkontakte/vk-tunnel": "^0.1.4",
+    "react-yandex-maps": "^4.6.0"
+  }
+}
